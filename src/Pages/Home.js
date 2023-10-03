@@ -54,7 +54,7 @@ function Home() {
               <p>{item.phonetic}</p>
               {item.phonetics.map((element, index) => (
                 <div key={index}>
-                  <audio src={element.audio} controls />
+                  <audio src={element.audio} controls  className="audio"/>
                   <p>{element.text}</p>
                 </div>
               ))}
