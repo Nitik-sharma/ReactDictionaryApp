@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 2rem;
+    background-color: #000;
+    color:#fff;
+
+}
+
+.right ul{ 
+    display: flex;
+    gap:2rem;
+}
+.right ul li{
+    list-style: none;
+}
+
+.right ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .left h1{
+        font-size: 1.5rem;
+    }
+    .right ul li a{
+        font-size: 1.3rem;
+        
+    }
+  }
+
+
+  @media only screen and (max-width: 450px) {
+    .left h1{
+        font-size: 1rem;
+    }
+    .right ul li a{
+        font-size: .8rem;
+        
+    }
+  }
