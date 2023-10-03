@@ -83,10 +83,11 @@
         width:150px;
     }
     .data-top{
+        margin-left: 2%;
         max-width: 94%;
         font-size: 1.2rem;
     }
     .audio{
-        width: 220px;
+        width: 200px;
     }
   }
